@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generated Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <div class="resume-container" id="resume">
+        <h1 id="resume-name"></h1>
+        <p><strong>Email:</strong> <span id="resume-email"></span></p>
+        <p><strong>Phone:</strong> <span id="resume-phone"></span></p>
+        
+        <h2>Summary</h2>
+        <p id="resume-summary"></p>
+
+        <h2>Skills</h2>
+        <ul id="resume-skills"></ul>
+
+        <h2>Experience</h2>
+        <p id="resume-experience"></p>
+
+        <h2>Education</h2>
+        <p id="resume-education"></p>
+    </div>
+
+    <button id="downloadPDF">📥 Download PDF</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
